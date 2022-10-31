@@ -1,0 +1,26 @@
+img{
+    width: 4rem;
+    height: 4rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #293132;
+    padding: 0.5rem;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    margin: 0 1rem;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}

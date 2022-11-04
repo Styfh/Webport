@@ -2,3 +2,11 @@ body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+h1{
+    text-transform: uppercase;
+}
+
+.center-text{
+    text-align: center;
+}

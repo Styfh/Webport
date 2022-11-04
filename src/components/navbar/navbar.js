@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import primaryButton from "../btn-primary/button-primary";
-import secondaryButton from "../btn-secondary/button-secondary";
+import primaryButton from "../../style/buttonPrimary";
+import secondaryButton from "../../style/buttonSecondary";
 import './navbar.css'
 
 export default class Navbar extends React.Component{

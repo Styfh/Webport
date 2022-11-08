@@ -1,9 +1,9 @@
-const secondaryButton = {
+const PrimaryButton = {
     color: "white",
-    backgroundColor: "#4F5165",
+    backgroundColor: "#547AA5",
     textTransform: "uppercase",
     textDecoration: "None",
     padding: "0.5rem 1rem"
 }
 
-export default secondaryButton;
+export default PrimaryButton;

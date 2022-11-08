@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import primaryButton from "../../style/buttonPrimary";
-import secondaryButton from "../../style/buttonSecondary";
+import PrimaryButton from "../../style/PrimaryButton";
+import SecondaryButton from "../../style/SecondaryButton"
 import './navbar.css'
 
 export default class Navbar extends React.Component{
@@ -14,10 +14,10 @@ export default class Navbar extends React.Component{
                 <div>
                     <ul>
                         <li>
-                            <Link to="/login" style={secondaryButton}>Login</Link>
+                            <Link to="/login" style={SecondaryButton}>Login</Link>
                         </li>
                         <li>
-                            <Link to="/register" style={primaryButton}>Register</Link>
+                            <Link to="/register" style={PrimaryButton}>Register</Link>
                         </li>
                     </ul>
                 </div>

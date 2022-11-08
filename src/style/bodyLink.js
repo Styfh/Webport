@@ -1,6 +1,6 @@
-const bodyLink = {
+const BodyLink = {
     color: "#547AA5",
     textDecoration: "None"
 };
 
-export default bodyLink;
+export default BodyLink;
